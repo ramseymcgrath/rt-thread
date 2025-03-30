@@ -15,9 +15,31 @@
 #include <rtdevice.h>
 #include <rtthread.h>
 #include "drv_pin.h"
+//#include "usb_host.h"  // Include CherryUSB host header
+//#include "usb_host_config.h"
+//#include "usb_host_driver.h"
 
 #define LEDB_PIN        ((1*32)+2)
 #define BUTTON_PIN      ((0*32)+23)
+/*static void usb_host_init(void)
+{
+    rt_kprintf("Initializing CherryUSB USB Host...\n");
+
+    // Initialize the USB host stack
+    if (usb_host_driver_init() != RT_EOK)
+    {
+        rt_kprintf("USB host driver initialization failed!\n");
+        return;
+    }
+
+    if (usb_host_stack_init() != RT_EOK)
+    {
+        rt_kprintf("USB host stack initialization failed!\n");
+        return;
+    }
+
+    rt_kprintf("CherryUSB USB Host initialized successfully.\n");
+}*/
 
 static void sw_pin_cb(void *args);
 

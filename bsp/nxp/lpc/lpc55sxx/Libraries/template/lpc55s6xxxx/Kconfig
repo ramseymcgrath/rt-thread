@@ -6,7 +6,7 @@ RTT_DIR := ../../../../..
 
 PKGS_DIR := packages
 
-config SOC_LPC55S6x
+config SOC_LPC55S6X
     bool
     select ARCH_ARM_CORTEX_M33
     default y
