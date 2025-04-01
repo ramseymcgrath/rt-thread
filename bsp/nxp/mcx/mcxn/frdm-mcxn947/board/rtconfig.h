@@ -25,6 +25,7 @@
 #define BSP_USING_LEDG_PWM
 #define BSP_USING_USB
 #define BSP_USING_USB_HOST
+
 /* end of On-chip Peripheral Drivers */
 
 /* Board extended module Drivers */

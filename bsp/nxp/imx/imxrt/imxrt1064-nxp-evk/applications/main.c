@@ -12,6 +12,7 @@
 #include <rtdevice.h>
 #include "drv_gpio.h"
 #include "core_cm7.h"
+#include "usb_config.h"
 
 /* defined the LED pin: GPIO1_IO9 */
 #define LED0_PIN               GET_PIN(1, 9)

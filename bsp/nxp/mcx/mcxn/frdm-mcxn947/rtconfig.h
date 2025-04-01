@@ -178,6 +178,7 @@
 #define RT_CHERRYUSB_HOST_EHCI_MCX
 #define RT_CHERRYUSB_HOST_HID
 #define RT_LWIP_PBUF_POOL_BUFSIZE 1600
+#define RT_CHERRYUSB_HOST_TEMPLATE
 /* end of Device Drivers */
 
 /* C/C++ and POSIX layer */
@@ -303,13 +304,12 @@
 
 /* LVGL: powerful and easy-to-use embedded GUI library */
 
+#define PKG_USING_GUI_GUIDER_DEMO
 /* end of LVGL: powerful and easy-to-use embedded GUI library */
 
 /* u8g2: a monochrome graphic library */
 
 /* end of u8g2: a monochrome graphic library */
-#define PKG_USING_TERMBOX
-#define PKG_USING_TERMBOX_LATEST_VERSION
 /* end of multimedia packages */
 
 /* tools packages */
